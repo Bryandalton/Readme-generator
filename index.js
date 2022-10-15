@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const promts = [
+const questions = [
   {
     type: "input",
     message: "what is your project's title?",
@@ -28,18 +28,26 @@ const promts = [
     name: "credits",
   },
   {
-    type: "input",
+    type: "list",
     message: "what license does your project use?",
+    choices: ['MIT', 'GNU', 'GPLv3',''],
     name: "license",
   },
   {
-    
+    type: 'input',
+    message: 'What are the contributor guidelines?',
+    name:'contribute'
   },
+  {
+    type: 'input',
+    message: 'write test for your application:',
+    name: 'tests'
+  }
 ];
 
 inquirer
-  .prompt(promts)
-  .then(({ title, description, installation, usage, credits, license }) => {
+  .prompt(questions)
+  .then(({ title, description, installation, usage, credits, license, contribute, tests }) => {
     let data = `# ${title}
     
     ## Description
@@ -67,7 +75,15 @@ inquirer
 
     ##Liscense
 
-        ${license}`;
+        ${license}
+        
+    ## How to contribute
+    
+        ${contribute}
+        
+    ##Tests
+        
+        ${tests}`;
 
     fs.writeFile("README.md", data, (err) => {
       err ? console.error(err) : console.log("successfully created README!");

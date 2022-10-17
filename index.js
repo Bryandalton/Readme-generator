@@ -74,7 +74,7 @@ inquirer
 
   ${credits}
 
-## Liscense
+## License
 
   ${license}
         

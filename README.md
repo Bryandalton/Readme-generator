@@ -24,7 +24,7 @@
 
   Bryandalton
 
-## Liscense
+## License
 
   MIT
         

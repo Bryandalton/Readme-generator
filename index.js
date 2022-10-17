@@ -48,42 +48,43 @@ const questions = [
 inquirer
   .prompt(questions)
   .then(({ title, description, installation, usage, credits, license, contribute, tests }) => {
-    let data = `# ${title}
+    let data = `
+# ${title}
+
+## Description
+
+  ${description}
+
+## Table of Contents
     
-    ## Description
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
 
-        ${description}
+## Installation
 
-    ## Table of Contents
+  ${installation}
+
+## Usage
+
+  ${usage}
+
+## Credits
+
+  ${credits}
+
+## Liscense
+
+  ${license}
+        
+## How to contribute
     
-        - [Installation](#installation)
-        - [Usage](#usage)
-        - [Credits](#credits)
-        - [License](#license)
-
-    ##Installation
-
-        ${installation}
-
-    ##Usage
-
-        ${usage}
-
-    ##Credits
-
-        ${credits}
-
-    ##Liscense
-
-        ${license}
+  ${contribute}
         
-    ## How to contribute
-    
-        ${contribute}
+## Tests
         
-    ##Tests
-        
-        ${tests}`;
+  ${tests}`;
 
     fs.writeFile("README.md", data, (err) => {
       err ? console.error(err) : console.log("successfully created README!");

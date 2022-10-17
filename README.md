@@ -1,28 +1,37 @@
+
 # Readme Generator
+
+## Description
+
+  Program asks a series of questions that when answered compile into a professional README.md file. This allows the user to easliy create a professional looking read me via the CLI.
+
+## Table of Contents
     
-    ## Description
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
 
-        Provides a user with promts that they can answer and complie a readme from the responses.
+## Installation
 
-    ## Table of Contents
+  Requires node and inquirer 8.2.4
+
+## Usage
+
+  Run in node via the CLI and answer promts with keyboard and select liscence with arrow keys.
+
+## Credits
+
+  Bryandalton
+
+## Liscense
+
+  MIT
+        
+## How to contribute
     
-        - [Installation](#installation)
-        - [Usage](#usage)
-        - [Credits](#credits)
-        - [License](#license)
-
-    ##Installation
-
-        N/A
-
-    ##Usage
-
-        Requires inquirer v8.2.4 and node. Run program through node answer promts in terminal.
-
-    ##Credits
-
-        Bryan Dalton
-
-    ##Liscense
-
-        N/A
+  N/A
+        
+## Tests
+        
+  N/A

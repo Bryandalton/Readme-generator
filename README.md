@@ -1,9 +1,11 @@
 
 # Readme Generator
 
+![badges](https://img.shields.io/badge/license-GPLv3-blue.svg)
+
 ## Description
 
-  Program asks a series of questions that when answered compile into a professional README.md file. This allows the user to easliy create a professional looking read me via the CLI.
+  An easy way to create professional looking READMEs using node and inquirer.
 
 ## Table of Contents
     
@@ -14,11 +16,11 @@
 
 ## Installation
 
-  Requires node and inquirer 8.2.4
+  Requires node and inquirer v8.2.4.
 
 ## Usage
 
-  Run in node via the CLI and answer promts with keyboard and select liscence with arrow keys.
+  Run in your CLI and answer the promts.
 
 ## Credits
 
@@ -26,7 +28,7 @@
 
 ## License
 
-  MIT
+  GPLv3
         
 ## How to contribute
     

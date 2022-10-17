@@ -44,12 +44,13 @@ const questions = [
     name: 'tests'
   }
 ];
-
 inquirer
   .prompt(questions)
   .then(({ title, description, installation, usage, credits, license, contribute, tests }) => {
     let data = `
 # ${title}
+
+![badges](https://img.shields.io/badge/license-${license}-blue.svg)
 
 ## Description
 

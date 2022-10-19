@@ -1,11 +1,11 @@
 
 # Readme Generator
 
-![badges](https://img.shields.io/badge/license-GPLv3-blue.svg)
+![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 
-  An easy way to create professional looking READMEs using node and inquirer.
+  Generates a proffessional README.md file based on promts answered by the user.
 
 ## Table of Contents
     
@@ -16,19 +16,19 @@
 
 ## Installation
 
-  Requires node and inquirer v8.2.4.
+  requires inquirer ^8.2.4
 
 ## Usage
 
-  Run in your CLI and answer the promts.
+  Run the application in the CLI via node. Answers the promts in the CLI and choose a license from the list.
 
 ## Credits
 
-  Bryandalton
+  Bryan Dalton Github: Bryandalton
 
 ## License
 
-  GPLv3
+  MIT
         
 ## How to contribute
     

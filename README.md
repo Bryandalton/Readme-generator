@@ -1,11 +1,11 @@
 
 # Readme Generator
 
-![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Github License](https://img.shields.io/badge/license-None-blue.svg)
 
 ## Description
 
-  Generates a proffessional README.md file based on promts answered by the user.
+  Project is intended to allow a user to quickly and easily create a professionaly formated README.md file that can be exported to other projects.
 
 ## Table of Contents
     
@@ -16,19 +16,19 @@
 
 ## Installation
 
-  requires inquirer ^8.2.4
+  Requires node and inquirer ^8.2.4
 
 ## Usage
 
-  Run the application in the CLI via node. Answers the promts in the CLI and choose a license from the list.
+  Running the application in the node environment via the CLI type: ```node index``` then the user will be presented with a series of promts. When answers to the promts will be formated into a README.md file which will be created when the final promt is answered.
 
 ## Credits
 
-  Bryan Dalton Github: Bryandalton
+  Bryan Dalton
 
 ## License
 
-  MIT
+  None
         
 ## How to contribute
     

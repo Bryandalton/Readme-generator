@@ -21,6 +21,8 @@
 ## Usage
 
   Running the application in the node environment via the CLI type: ```node index``` then the user will be presented with a series of promts. When answers to the promts will be formated into a README.md file which will be created when the final promt is answered.
+  
+  https://drive.google.com/file/d/1ZyPMT3jI4j815mLMgY2KxQWtURNiAosv/view
 
 ## Credits
 

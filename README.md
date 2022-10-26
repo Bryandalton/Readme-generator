@@ -20,9 +20,9 @@
 
 ## Usage
 
-  Running the application in the node environment via the CLI type: ```node index``` then the user will be presented with a series of promts. When answers to the promts will be formated into a README.md file which will be created when the final promt is answered.
+  Running the application in the node environment via the CLI type: ```node index``` then the user will be presented with a series of promts. When answers to the promts will be formated into a README.md file which will be created when the final promt is answered. NOTE: The image url for the badge will update on selection but if a previous image is being overwritten the user will need to close and reopen their coding enviornment for the badge image to update.
   
-  https://drive.google.com/file/d/1ZyPMT3jI4j815mLMgY2KxQWtURNiAosv/view
+  link: https://github.com/Bryandalton/Readme-generator
 
 ## Credits
 

@@ -27,7 +27,9 @@
 ## Credits
 
   Bryan Dalton
+  
   bryantdalton@gmail.com
+  
   https://github.com/Bryandalton
 
 ## License

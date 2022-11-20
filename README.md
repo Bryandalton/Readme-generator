@@ -1,11 +1,11 @@
 
-# Readme Generator
+# Example
 
-![Github License](https://img.shields.io/badge/license-None-blue.svg)
+![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 
-  Project is intended to allow a user to quickly and easily create a professionaly formated README.md file that can be exported to other projects.
+  example desc
 
 ## Table of Contents
     
@@ -16,11 +16,11 @@
 
 ## Installation
 
-  Requires node and inquirer ^8.2.4
+  example 123 
 
 ## Usage
 
-  Running the application in the node environment via the CLI type: ```node index``` then the user will be presented with a series of promts. When answers to the promts will be formated into a README.md file which will be created when the final promt is answered.
+  example 1: 2: 3:
 
 ## Credits
 
@@ -28,7 +28,7 @@
 
 ## License
 
-  None
+  MIT
         
 ## How to contribute
     

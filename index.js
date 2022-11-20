@@ -42,11 +42,21 @@ const questions = [
     type: 'input',
     message: 'write test for your application:',
     name: 'tests'
+  },
+  {
+    type: 'input',
+    message: 'Email Address: ',
+    name: 'email'
+  },
+  {
+    type: 'input',
+    message: 'Github profile link: ',
+    name: 'github'
   }
 ];
 inquirer
   .prompt(questions)
-  .then(({ title, description, installation, usage, credits, license, contribute, tests }) => {
+  .then(({ title, description, installation, usage, credits, license, contribute, tests, email, github}) => {
     let data = `
 # ${title}
 
@@ -74,6 +84,10 @@ inquirer
 ## Credits
 
   ${credits}
+
+  ${email}
+
+  ${github}
 
 ## License
 

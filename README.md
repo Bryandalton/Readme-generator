@@ -20,11 +20,15 @@
 
 ## Usage
 
-  example 1: 2: 3:
+ Running the application in the node environment via the CLI type: ```node index``` then the user will be presented with a series of prompts. When answers to the prompts will be formatted into a README.md file which will be created when the final prompt is answered. NOTE: The image url for the badge will update on selection but if a previous image is being overwritten the user will need to close and reopen their coding environment for the badge image to update.
 
 ## Credits
 
   Bryan Dalton
+  
+  bryantdalton@gmail.com
+  
+  https://github.com/Bryandalton
 
 ## License
 

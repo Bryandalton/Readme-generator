@@ -1,11 +1,11 @@
 
 # Readme Generator
 
-![Github License](https://img.shields.io/badge/license-None-blue.svg)
+![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 
-  This node application allow users to quickly and easliy create a proffesional looking README.md file for any project.
+  Tool for creating professional README.md files for any project.
 
 ## Table of Contents
     
@@ -16,23 +16,27 @@
 
 ## Installation
 
-  This application runs in node and requires the inquirer package.
+  N/A
 
 ## Usage
+  Install inquirer with ```npm i```.
+  Run the app by typing  ```node index``` into the CLI.
+  Answer the following prompts in the CLI to create the README.
 
-  Running the application in the node environment via the CLI type: node index then the user will be presented with a series of prompts. When answers to the prompts will be formatted into a README.md file which will be created when the final prompt is answered. NOTE: The image url for the badge will update on selection but if a previous image is being overwritten the user will need to close and reopen their coding environment for the badge image to update.
+  ![screenshot](./images/readme-generator-screenshot.JPG)
+
+  Video Walk-through:
+  Github: https://github.com/Bryandalton/Readme-generator
 
 ## Credits
 
-  Bryan Dalton
-
-  bryantdalton19@gmail.com
-
-  https://github.com/Bryandalton
+  Bryan Dalton 
+  
+  
 
 ## License
 
-  None
+  MIT
         
 ## How to contribute
     

@@ -43,16 +43,6 @@ const questions = [
     message: 'write test for your application:',
     name: 'tests'
   },
-  {
-    type: 'input',
-    message: 'Email Address: ',
-    name: 'email'
-  },
-  {
-    type: 'input',
-    message: 'Github profile link: ',
-    name: 'github'
-  }
 ];
 inquirer
   .prompt(questions)
@@ -84,9 +74,7 @@ inquirer
 ## Credits
 
   ${credits}
-
   ${email}
-
   ${github}
 
 ## License

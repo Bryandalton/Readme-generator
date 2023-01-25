@@ -28,6 +28,7 @@
   ![screenshot](./images/readme-generator-screenshot.JPG)
 
   Video Walk-through: https://drive.google.com/file/d/18He5rV6Fe1hxn7OMmm2_c1YeyH64KuRg/view
+  
   Github: https://github.com/Bryandalton/Readme-generator
 
 ## Credits
